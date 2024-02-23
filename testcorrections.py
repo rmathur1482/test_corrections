@@ -23,7 +23,7 @@ def merge_protein_counts(dict1, dict2):
                 combined_dict[i] = (0, dict2[i])
     return combined_dict
 
-def date_to_iso8601 (date_list):
+def dates_to_iso8601 (date_list):
     ISO_dates = []
     for i in date_list:
         m_d_y = i.split()
